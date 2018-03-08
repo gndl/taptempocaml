@@ -1,5 +1,5 @@
 (jbuild_version 1)
 
 (executable
- ((name taptempo)
-  (libraries (unix))))
+ ((name taptempocaml)
+  (libraries (unix gettext-camomile))))
