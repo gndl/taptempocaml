@@ -13,7 +13,7 @@ $ make
 
 Installation :
 ```
-$ make install
+$ sudo make install
 ```
 
 Execution :
