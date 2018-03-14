@@ -4,7 +4,7 @@ let run sampleSize resetTime precision =
 
   let hitTimePoints = Queue.create() in
 
-  print_string(s_"Hit enter key for each beat (q to quit).\n");
+  Printf.printf(f_"Hit enter key for each beat (q to quit).%!");
 
   while input_char stdin <> 'q' do
     let currentTime = Unix.gettimeofday() in
@@ -13,7 +13,7 @@ let run sampleSize resetTime precision =
     || currentTime -. Queue.top hitTimePoints > resetTime
     then (
       Queue.clear hitTimePoints; (* Reset if the hit diff is too big. *)
-      print_string(s_"[Hit enter key one more time to start bpm computation...]\n")
+      Printf.printf(f_"[Hit enter key one more time to start bpm computation...]%!")
     )
     else (
       let occurenceCount = Queue.length hitTimePoints in
