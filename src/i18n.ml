@@ -2,7 +2,7 @@
 module Gettext = Gettext.Program
 (
   struct
-    let textdomain   = "taptempo"
+    let textdomain   = "taptempocaml"
     let codeset      = None
     let dir          = None
     let dependencies = Gettext.init

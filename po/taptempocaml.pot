@@ -37,35 +37,35 @@ msgstr ""
 msgid "Options:\n"
 msgstr ""
 
-msgid "  -h, --help\t\tdisplay this help message\n"
+msgid "\t\tdisplay this help message\n"
 msgstr ""
 
 msgid ""
-"  -p, --precision\tset the decimal precision of the tempo display\n"
+"\tset the decimal precision of the tempo display\n"
 "\t\t\tdefault is %i digits, max is %i digits\n"
 msgstr ""
 
 msgid ""
-"  -r, --reset-time\tset the time in second to reset the computation\n"
+"\tset the time in second to reset the computation\n"
 "\t\t\tdefault is %i seconds\n"
 msgstr ""
 
 msgid ""
-"  -s, --sample-size\tset the number of samples needed to compute the tempo\n"
+"\tset the number of samples needed to compute the tempo\n"
 "\t\t\tdefault is %i samples\n"
 msgstr ""
 
-msgid "  -v, --version\t\tdisplay the version\n"
+msgid "\t\tdisplay the version\n"
 msgstr ""
 
-msgid "Hit enter key for each beat (q to quit).%!"
+msgid "Hit enter key for each beat (q to quit)."
 msgstr ""
 
 msgid "Bye Bye!\n"
 msgstr ""
 
-msgid "Tempo: %s bpm%!"
+msgid "Tempo: %s bpm\t"
 msgstr ""
 
-msgid "[Hit enter key one more time to start bpm computation...]%!"
+msgid "[Hit enter key one more time to start bpm computation...]"
 msgstr ""

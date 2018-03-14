@@ -10,3 +10,13 @@ Build instruction :
 ```
 $ make
 ```
+
+Installation :
+```
+$ make install
+```
+
+Execution :
+```
+$ taptempocaml
+```

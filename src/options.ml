@@ -15,7 +15,7 @@ let printVersionAndExit() =
 
 let createFromArgs args =
   let sampleSize = ref 5 in
-  let resetTime = ref 5. in
+  let resetTime = ref 10. in
   let precision = ref 0 in
   let maxPrecision = 5 in
 
